@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;   
+}
+
+
+.container{
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #f49712;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+button:hover{
+    background: #f4971291;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+
+
+
+header .container{
+
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+header .container h1{
+    font-weight: 300;
+    color: #4d6e80;
+
+}
+
+header .container nav ul{
+
+    padding: 0;
+}
+
+header .container nav ul li{
+    display: inline-block;
+
+}
+
+header .container nav ul li a{
+
+    padding: 5px 18px;
+    text-decoration: none;
+    transition: .3s;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color:  #4d6e80;
+
+}
+
+header .container nav ul li a:hover{
+    border: 1px solid  #b3c8d4;
+
+}
+
+header .container nav ul li a.active{
+    border: 1px solid  #b3c8d4;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #hero{
+    width: 100%;
+    padding-top: px;
+    padding-bottom: 200px;
+    background:url("../img/slide.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    text-align: center;
+
+}
+
+main #hero h2{
+    font-size: 60px;
+    line-height: 72px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+main #hero p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+main #hero button{
+    color: #fff;
+    background: #f49712;
+    border-radius: 40px;
+    padding: 15px 50px;
+    font-size: 16px;
+    border: 0;
+    font-weight: 700;
+    margin-top: 44px;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+
+}
+
+main #hero button:hover{
+    background: #f4971291;
+}
+
+#welcome {
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+
+}
+
+#welcome .container{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#welcome .container h2{
+    font-weight: 300;
+    font-size: 36px;
+    color: #4e7b8b;
+    
+}
+
+main #welcome .container p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #7e8487;
+}
+
+main #welcome .container .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+#welcome .container .row .cont-c{
+    width: 238px;
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+#welcome .container .row .cont-c h3{
+
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+
+
+}
+
+
+#welcome .container .row .cont-c:nth-child(1){
+    background: url(../img/comfort.png);
+ 
+}
+
+#welcome .container .row .cont-c:nth-child(2){
+    background: url(../img/reliability.png);
+ 
+}
+
+#welcome .container .row .cont-c:nth-child(3){
+    background: url(../img/design.png);
+ 
+}
+
+#recent_projects {
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    background: #f2f2f2;
+
+}
+
+#recent_projects .container{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#recent_projects .container h4{
+    font-weight: 300;
+    font-size: 36px;
+    color: #4e7b8b;
+    
+}
+
+
+#recent_projects .container p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #7e8487;
+}
+
+#recent_projects .container .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+#recent_projects .container .row .relax{
+    width: 238px;
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+#recent_projects .container .row .relax img{
+    width: 300px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+#recent_projects .container .row .relax img{
+    font-size: 36px;
+    top: 75px;
+}
+
+#recent_projects button{
+    color: #fff;
+    background: #f49712;
+    border-radius: 40px;
+    padding: 15px 50px;
+    font-size: 16px;
+    border: 0;
+    font-weight: 700;
+    margin-top: 44px;
+    cursor: pointer;
+    outline: none;   
+    transition: .3s;
+    margin-top: 50px;
+
+}
+
+#recent_projects  button:hover{
+    background: #f4971291;
+}
+#experts {
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+
+}
+
+#experts .container{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+#experts .container h2{
+    font-weight: 300;
+    font-size: 36px;
+    color: #4e7b8b;
+    
+}
+
+#experts .container p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #7e8487;
+}
+
+
+footer .socials{
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    background: url(../img/socials-bg.jpg)no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    text-align: center;
+
+}
+
+footer .socials h2{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+ 
+}
+
+footer .socials p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+ 
+}
+
+
+footer .socials ul li{
+    display: inline-block;
+    margin: 20px 20px;
+ 
+}
+
+footer .socials ul li a{
+    color: #fff;
+    font-size: 50px;
+ 
+}
+
+footer .copy{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+footer .copy p{
+    font-size: 13px;
+    color: #7e8487;
+  
+}
+
+footer .copy p a{
+    font-size: 13px;
+    color: #7e8487;
+    text-decoration: none;
+}
+
+
+footer .copy p a:hover{
+    text-decoration: underline;
+
+}
+
+
+main #us .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+#us .container .row .about{
+    width: 65%;
+    text-align: left;
+    margin: 0 20px;
+ }
+
+#us .container .row .about .container .row{
+    width: 100%;
+  
+    display: block;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#main-services h1{
+    font-weight: 300;
+    color: #4d6e80;
+    text-align: left;
+   
+}
+
+#what .container .we-do .row{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+
+#what .container .we-do .row{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+#main-services .container .row .cont-main{
+
+}
+
+#main-services .container .row{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+
+#specialized h1{
+    font-weight: 300;
+    color: #4d6e80;
+    text-align: left;
+
+}
+
+
+#specialized .container .row{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+#specialized .container .row .cont-topics{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+#specialized {
+    
+    background: #f2f2f2;
+}
+
+#main-services .container .row .cont-main{
+    font-weight: 5;
+    font-size: 15px;
+    color: #4e7b8b;
+    
+}
+
+#main-services .container .row .cont-main h3{
+    font-weight: 300;
+}
+
+#main-services .container .row .cont-main p{
+    font-weight: 300;
+    
+}
+
+#projects h1{
+    font-weight: 300;
+    color: #4d6e80;
+    text-align: left;
+
+}
+
+
+#projects .container .row .overview img{
+    width: 300px;
+}
+
+#projects .container .row{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
